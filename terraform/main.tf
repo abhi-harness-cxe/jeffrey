@@ -5,7 +5,7 @@ terraform {
 resource "null_resource" "print_hostname" {
 
   provisioner "local-exec" {
-    command = "echo Hostname iss: $(hostname)"
+    command = "echo Hostname issn: $(hostname)"
   }
 
 }
